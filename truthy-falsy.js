@@ -1,8 +1,8 @@
-const x = " ";
-if(x){
+const x =NaN;
+if (x) {
     console.log('value x is a truthy')
 }
-else{
+else {
     console.log('value x is a falsy')
 };
 
