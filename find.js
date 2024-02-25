@@ -6,3 +6,10 @@ console.log(number1);
 
 const number2 = numbers.find(num => num % 2);
 console.log(number2);
+
+
+// ------------------------------------------------
+// ------------------------------------------------
+
+const locations = ['Mirpur','Golsan','Uttra','Rampura','Bashundhara','Dhanmmondi'];
+const location = locations.find(loc )

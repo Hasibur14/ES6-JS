@@ -3,8 +3,7 @@ const double = numbers.map(num => num * 2); //num
 //console.log(double);
 
 const values = [5, 6, 7, 10, 12];
-const value = values.map(val => val + 2);
-//console.log(value);
+values.map((val,index,arr) => console.log('Value is: ', val, 'Index is: ',index, arr));
 
 
 const names = ['don', 'jon', 'boom'];
@@ -26,10 +25,14 @@ const celsius = fahrenheit.map(cel => (cel - 30) * 5 / 9);
 
 const frnds = ['fahim', 'karim', 'halim', 'dalim'];
 const upperCase = frnds.map(nam => nam.toUpperCase([0]));
-console.log(upperCase);
+//console.log(upperCase);
 
 
 const words = ['good', 'bad', 'very good'];
 const wordss = words.map(word => word.length);
 const wordLength = words.map(word => word[0]);
-    console.log(wordLength);
+//console.log(wordLength);
+
+
+
+
